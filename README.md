@@ -1,4 +1,5 @@
 # OpenStreetMap (OSM) MCP Server
+[![smithery badge](https://smithery.ai/badge/@ngoiyaeric/open-streetmap-mcp)](https://smithery.ai/server/@ngoiyaeric/open-streetmap-mcp)
 
 An OpenStreetMap MCP server implementation that enhances LLM capabilities with location-based services and geospatial data.
 
@@ -15,6 +16,14 @@ An OpenStreetMap MCP server implementation that enhances LLM capabilities with l
 
 
 ## Installation
+
+### Installing via Smithery
+
+To install open-streetmap-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ngoiyaeric/open-streetmap-mcp):
+
+```bash
+npx -y @smithery/cli install @ngoiyaeric/open-streetmap-mcp --client claude
+```
 
 ### In MCP Hosts like Claude Desktop, Cursor, Windsurf, etc.
 - `osm-mcp-server`: The main server, available for public use.
@@ -207,7 +216,6 @@ npx @modelcontextprotocol/inspector uv --directory /path/to/osm-mcp-server run o
 ```
 
 Upon launching, the Inspector will display a URL that you can access in your browser to begin debugging.
-
 
 
 
